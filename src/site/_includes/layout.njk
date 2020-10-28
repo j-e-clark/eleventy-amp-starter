@@ -10,6 +10,7 @@
     <style amp-custom>{% include "css/main.css" %}</style>
   </head>
   <body>
+    {%- include "_consent.njk" -%}
     {%- include "_analytics.njk" -%}
     <header></header>
     <main>{{ content | safe }}</main>

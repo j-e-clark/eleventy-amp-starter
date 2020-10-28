@@ -2,9 +2,9 @@
 {% set gtmID = analytics.gtmID %}
 {% if gtmID %}
 <!-- Google Tag Manager -->
-<amp-analytics config="https://www.googletagmanager.com/amp.json?id={{ gtmID }}&gtm.url=SOURCE_URL" data-credentials="include"></amp-analytics>
+<amp-analytics data-block-on-consent config="https://www.googletagmanager.com/amp.json?id={{ gtmID }}&gtm.url=SOURCE_URL" data-credentials="include"></amp-analytics>
 {% elif gaID %}
-<amp-analytics type="gtag" data-credentials="include">
+<amp-analytics data-block-on-consent type="gtag" data-credentials="include">
 <script type="application/json">
 {
   "vars" : {
