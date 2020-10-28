@@ -1,3 +1,4 @@
+require('dotenv').config();
 const ampPlugin = require('@ampproject/eleventy-plugin-amp');
 const pluginSass = require('eleventy-plugin-sass');
 const dir = {

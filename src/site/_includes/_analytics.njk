@@ -1,0 +1,15 @@
+{% set gaID = analytics.gaID %}
+{% if gaID %}
+<amp-analytics type="gtag" data-credentials="include">
+<script type="application/json">
+{
+  "vars" : {
+    "gtag_id": "{{ gaID }}",
+    "config" : {
+      "{{ gaID }}": { "groups": "default" }
+    }
+  }
+}
+</script>
+</amp-analytics>
+{% endif %}
