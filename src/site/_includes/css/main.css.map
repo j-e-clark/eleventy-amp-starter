@@ -1,0 +1,1 @@
+{"version":3,"sources":["base/_global.scss"],"names":[],"mappings":"AAAA,KACE,sBAAA,CAGF,KAEE,qBAAA,CADA,6BACA,CAGF,IACE,iBAAA","file":"main.css","sourcesContent":["html {\n  scroll-behavior: smooth;\n}\n\nbody {\n  font-family: 'Roboto', sans-serif;\n  background-color: #6699cc;\n}\n\nimg {\n  border-radius: 1em;\n}\n"]}

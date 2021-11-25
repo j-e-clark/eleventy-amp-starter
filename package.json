@@ -4,8 +4,8 @@
   "description": "Starter site using Eleventy and with amp and Sass plugins",
   "main": "index.js",
   "scripts": {
-    "dev": "eleventy --serve",
-    "build": "ENV=prod eleventy",
+    "dev": "gulp build & gulp & eleventy --serve",
+    "build": "gulp build && ENV=prod eleventy",
     "debug": "DEBUG=Eleventy* eleventy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,7 +15,14 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
     "@ampproject/eleventy-plugin-amp": "^0.5.5",
+    "autoprefixer": "^10.4.0",
+    "cssnano": "^5.0.11",
     "dotenv": "^8.5.1",
-    "eleventy-plugin-sass": "^1.2.0"
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "postcss": "^8.4.1",
+    "sass": "^1.43.5"
   }
 }
