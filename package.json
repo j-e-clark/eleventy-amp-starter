@@ -1,6 +1,6 @@
 {
   "name": "elevent-amp-starter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Starter site using Eleventy and with amp and Sass plugins",
   "main": "index.js",
   "scripts": {
@@ -15,14 +15,14 @@
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0",
     "@ampproject/eleventy-plugin-amp": "^0.5.7",
-    "autoprefixer": "^10.4.2",
-    "cssnano": "^5.0.16",
+    "autoprefixer": "^10.4.4",
+    "cssnano": "^5.1.7",
     "dotenv": "^16.0.0",
     "gulp": "^4.0.2",
     "gulp-postcss": "^9.0.1",
     "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^3.0.0",
-    "postcss": "^8.4.6",
-    "sass": "^1.49.7"
+    "postcss": "^8.4.12",
+    "sass": "^1.50.0"
   }
 }
