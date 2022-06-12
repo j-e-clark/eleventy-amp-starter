@@ -1,6 +1,6 @@
 {
   "name": "elevent-amp-starter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Starter site using Eleventy and with amp and Sass plugins",
   "main": "index.js",
   "scripts": {
