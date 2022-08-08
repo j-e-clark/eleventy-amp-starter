@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <title>{{pageTitle}} | {{metadata.title}}</title>
     <meta name="Description" content="{{ pageDescription or metadata.description }}">
+    <meta name="generator" content="{{ eleventy.generator }}">
     <link rel="canonical" href="{{ page.url }}">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <style amp-custom>{% include "css/main.css" %}</style>
